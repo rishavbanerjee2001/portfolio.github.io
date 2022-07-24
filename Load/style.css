@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Montserrat:wght@300;400;500;600;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    animation: changeBg 10s linear infinite;
+}
+@keyframes changeBg{
+    0%{
+        background-color: #4070f4;
+    }
+    30%{
+        background-color: #3792b6;
+    }
+    60%{
+        background-color: #3154b3;
+    }
+    
+    85%{
+        background-color: #4070f4;
+    }
+    100%{
+        
+        background-color: #4f501d;
+    }
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container .wrapper{
+    position: absolute;
+    top: -35px;
+    transform: scale(1.5);
+}
+.loader{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    animation: rotate 3.5s linear infinite;
+}
+.loader:nth-child(1){
+    animation-delay: 0.15s;
+}
+.loader:nth-child(2){
+    animation-delay: 0.3s;
+}
+.loader:nth-child(3){
+    animation-delay: 0.45s;
+}
+.loader:nth-child(4){
+    animation-delay: 0.6s;
+}
+.loader:nth-child(5){
+    animation-delay: 0.75s;
+}
+.loader:nth-child(6){
+    animation-delay: 0.9s;
+}
+@keyframes rotate{
+    30%{
+        transform: rotate(220deg);
+    }
+    40%{
+        transform: rotate(450deg);
+    }
+    75%{
+        transform: rotate(720deg);
+        opacity: 1;
+    }
+    76%{
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+} 
+.loader .dot{
+    top: 30px;
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+.container .text{
+    position: relative;
+    color: #fff;
+    bottom: -85px;
+    font-size: 25px;
+    font-weight: 400;
+    left: 37.8px;
+}

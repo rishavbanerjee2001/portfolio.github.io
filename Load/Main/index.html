@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+    </div>
+    <div class="subscribe-form">
+        <div class="left">
+            <img src="Newsletter.png" alt="">
+        </div>
+        <div class="right">
+            <h2>Subscribe to my newsletter!</h2>
+            <p>Subscribe to my monthly newsletter so that you dont miss any awesome updates from me. Stay tuned!</p>
+            <!-- <form action="https://formspree.io/f/xjvlldvj"
+            method="POST"> -->
+            <div class="form">
+                <div class="input">
+                    <label for="email">Enter Your Email</label>
+                    <input required autocomplete="off" type="email" name="email" id="email" placeholder="alex@gmail.com">
+                </div>
+                <div class="button">
+                    <button type="submit" id="button">Subscribe</button>
+                   
+                </div>
+            </div>
+        </div>
+        <button class="close-btn">
+            &times;
+        </button>
+    </div>
+
+
+    <div class="total">
+        <nav>
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="#">Rishav Banerjee</a>
+                </div>
+                <ul class="nav-links">
+                     <li><a href="index.html" >Home</a></li>
+                     <li><a href="#" >About</a></li>
+                     <li><a href="#skills" >Skills</a></li>
+                     <li><a href="#testimonials" >Testimonials</a></li>
+                     <li><a href="#contact" >Contact</a></li>
+                     <li><a href="#faqs" >FAQs</a></li>
+                     <li><a href=".\Blogs\index.html" >Blogs</a></li>
+                </ul>
+                <div class="appearance">
+                    <div class="light-dark">
+                        <i class="btn fas fa-moon" data-color="#000 #dcdde1"></i>
+                    </div>
+                    <div class="color-icon">
+                        <div class="icons">
+                            <i class="fas fa-palette"></i>
+                            <i class="fas fa-sort-down arrow"></i>
+                        </div>
+                        <div class="color-box">
+                            <h3>Color Switcher</h3>
+                            <div class="color-switchers">
+                                <button class="btn blue active" data-color="#4070f4 #d5e3eb"></button>
+                                <button class="btn red" data-color="#F81717 #ffc2c2"></button>
+                                <button class="btn orange" data-color="#F79F1F #ffe8e8"></button>
+                                <button class="btn purple" data-color="#8e44ad #f0ceff"></button>
+                                <button class="btn green" data-color="#3A9943 #eaffec"></button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    
+        <div class="home">
+
+            <main>
+                <section class="section-hero section">
+                    <div class="container grid grid-two-column">
+                        <div class="section-hero-data">
+                            <p class="hero-top-data">
+                                this is me,
+                            </p>
+                            <h1 class="hero-heading">RISHAV BANERJEE</h1>
+                            <p class="hero-para">I am Rishav Banerjee, CSE undergrad from IEM, Kolkata.
+                                <br> <span>A Full Stack MERN Developer, C++/Javascript programmer and ML,Blockchain enthusiast.</span>  </p>
+                            <div class="buttons-main">
+                                <a href="#contact" class="btn hireme-btn">HIRE ME</a>
+                                <a href="Resume/index.html" class="btn resume-btn">RESUME</a>
+                            </div>
+                           
+                        </div>
+                         <!-- hero section right -->
+                         <div class="section-hero-image">
+                            <img src="MyPhoto.jpeg" alt="this is Rishav" class="hero-img">
+                         </div>
+                    </div>
+                </section>
+            </main>
+
+  <div class="section section-work-data">
+    <div class="container grid grid-three-column">
+        <div class="inside">
+            <h2 class="counter-numbers" data-number="10000">0+</h2>
+            <p>Lines of Code</p>
+        </div>
+        <div class="inside">
+            <h2 class="counter-numbers" data-number="400">0+</h2>
+            <p>Problems solved</p>
+        </div>
+        <div class="inside">
+            <h2 class="counter-numbers" data-number="600">0+</h2>
+            <p>Cups of Coffee</p>
+        </div>
+    </div>
+</div>
+
+<div id="skills">
+    <div class="containerskills">
+
+        <h1 class="skills-heading-main">Technologies Known</h1>
+        <div class="skill-box">
+            <span class="title">Html,Css,Bootstrap</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">95%</span>
+                </span>
+            </div>
+        </div>
+    
+        <div class="skill-box">
+            <span class="title">C++</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per cpp">
+                    <span class="tooltip">95%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">DSA</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per dsa">
+                    <span class="tooltip">85%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Javascript</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+    
+        <div class="skill-box">
+            <span class="title">React Js</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per react">
+                    <span class="tooltip">80%</span>
+                </span>
+            </div>
+        </div> 
+    
+       <!--  <div class="skill-box">
+            <span class="title">NodeJs</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per nodejs">
+                    <span class="tooltip">60%</span>
+                </span>
+            </div>
+        </div> -->
+    
+        <div class="skill-box">
+            <span class="title">Firebase</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per firebase">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">NodeJs</span>
+            
+            <div class="skill-bar">
+                <span class="skill-per ml">
+                    <span class="tooltip">85%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Python</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per py">
+                    <span class="tooltip">75%</span>
+                </span>
+            </div>
+        </div>
+        
+        <div class="skill-box">
+            <span class="title">MongoDb,SQL</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per basic">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+      <!--  <div class="skill-box">
+            <span class="title">GoLang</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per go">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div> -->
+        <!-- <div class="skill-box">
+            <span class="title">AWS,Azure</span>
+            <div class="skill-bar">
+                <span class="skill-per aws">
+                    <span class="tooltip">75%</span>
+                </span>
+            </div>
+        </div> -->
+        <!-- <div class="skill-box">
+            <span class="title">Solidity</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per solidity">
+                    <span class="tooltip">80%</span>
+                </span>
+            </div>
+        </div> -->
+        <div class="skill-box">
+            <span class="title">UI/UX(Figma)</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per ui">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">Video Editing(Premier Pro)</span>
+    
+            <div class="skill-bar">
+                <span class="skill-per edit">
+                    <span class="tooltip">85%</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+</div>
+
+<div id="testimonials">
+    <div class="wrapper">
+        
+        <div class="testimonial-container" id="testimonial-container"></div>
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container-contact">
+        <div class="content">
+            
+            
+            <div class="left-side">
+                <div class="address details">
+                     <i class="fas fa-map-marker-alt"></i>
+                     <div class="topic">Address</div>
+                     <div class="text-one">West Bengal,Kolkata</div>
+                     <div class="text-two">Beliaghata 4d,Dr.S.C.Banerjee Road, Kol-85</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+91 9123003695</div>
+                    <div class="text-two">+91 8240259335</div>
+               </div>
+               <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">rishav.banerjee01@gmail.com</div>
+                <div class="text-two">rishavbanerjeec26cse@gmail.com</div>
+                </div>
+          </div>
+
+            <div class="right-side">
+                <div class="topic-text">Send me a message</div>
+                <p>If u have any work from me or any type of queries</p>
+
+            
+                <form action="https://formspree.io/f/xjvlldvj"
+                method="POST">
+                   
+                <div class="input-box">
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="Enter your name" id="username" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="Enter your email" id="email" autocomplete="off" required>
+                </div>
+
+                <div class="input-box message-box">
+                    <textarea name="textarea" required min="5" autocomplete="off" id="textarea" placeholder="Enter your message.. "></textarea>
+                </div>
+
+                <div class="button">
+                    <input type="submit"  id="submit" value="Send Now">
+                </div>
+
+            </form>
+             
+                
+             
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div id="faqs">
+    <div class="accordion">
+        <div class="item">
+            <p class="number">01</p>
+            <h2>What is my greatest strength?</h2>
+            <div class="iconOpen">
+                <ion-icon class="icon" name="add-outline"></ion-icon>
+            </div>
+            <div class="iconClose">
+                <ion-icon class="icon" name="close-outline"></ion-icon>
+            </div>
+
+            <div class="hidden-box">
+                <p>
+                    I can easily adapt and learn new technologies. I can handle stressful situations and perform well under pressure.
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <p class="number">02</p>
+            <h2>Do I have any professional experience?</h2>
+            <div class="iconOpen">
+                <ion-icon class="icon" name="add-outline"></ion-icon>
+            </div>
+            <div class="iconClose">
+                <ion-icon class="icon" name="close-outline"></ion-icon>
+            </div>
+
+            <div class="hidden-box">
+                <p>
+                   Since I am a fresher I don't have any professional experience but have the experience of working hands-on with classmates or individual in projects.
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <p class="number">03</p>
+            <h2>Am I willing to relocate?</h2>
+            <div class="iconOpen">
+                <ion-icon class="icon" name="add-outline"></ion-icon>
+            </div>
+            <div class="iconClose">
+                <ion-icon class="icon" name="close-outline"></ion-icon>
+            </div>
+
+            <div class="hidden-box">
+                <p>
+                   Yes, currently I am willing to work and rellocate in any cities in India.
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="item">
+            <p class="number">04</p>
+            <h2>What are my hobbies?</h2>
+            <div class="iconOpen">
+                <ion-icon class="icon" name="add-outline"></ion-icon>
+            </div>
+            <div class="iconClose">
+                <ion-icon class="icon" name="close-outline"></ion-icon>
+            </div>
+
+            <div class="hidden-box">
+                <p>
+                   Apart from playing guitar and cricket, whenever I get free time I spent it with video editing and lofi music creation.
+                </p>
+            </div>
+        </div>
+
+      
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/anonymous-user-365638188/" target="_blank">
+            <i class="fa-brands fa-2x fa-linkedin-in"></i>
+        </a>
+    
+        <a href="https://github.com/rishavbanerjee2001" target="_blank">
+            <i class="fa-brands fa-2x fa-github"></i>
+        </a>
+        <a href="https://twitter.com/RisB_01" target="_blank">
+            <i class="fa-brands fa-2x fa-twitter"></i>
+        </a>
+    
+        <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa-brands fa-2x fa-youtube"></i>
+        </a>
+    
+        <a href="https://www.instagram.com/?hl=en" target="_blank">
+            <i class="fa-brands fa-2x fa-instagram"></i>
+        </a>
+    
+    </div>
+    
+    
+</footer>
+
+      
+
+       </div>
+
+     
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>

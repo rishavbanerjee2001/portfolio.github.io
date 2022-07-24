@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Montserrat:wght@300;400;500;600;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.print-area{
+   width: 80%;
+   margin: 20px auto;
+}
+.header img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 62px;
+    left: 136px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: .5s;
+    user-select: none;
+    filter: grayscale(100%);
+}
+.header img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0,0,0,.5);
+}
+.print-area .header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(31,34,43);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header-text{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+}
+.header-text h1{
+    font-weight: normal;
+    font-size: 50px;
+}
+.header-text p{
+    position: relative;
+    left: 91px;
+    font-size: 20px;
+    color: lightgray;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area{
+    width: 30%;
+    background-color: rgb(236,236,236);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.left-area .contact{
+    margin-top: 130px;
+    padding: 0 30px;
+}
+.contact h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact p{
+    font-size: 17px;
+}
+.right-area{
+    width: 70%;
+    padding: 50px;
+}
+.right-area h1{
+    font-size: 30px;
+    font-weight: 450;
+}
+.right-area h1 span{
+    margin-right: 30px;
+    font-size: 50px;
+    color: lightgrey;
+    position: relative;
+    top: 6px;
+}
+.right-area .objective h1 span{
+    margin-right: 24px;
+    font-size: 50px;
+    color: lightgrey;
+}
+.right-area p{
+    padding-left: 75.5px;
+    text-align: justify;
+    font-size: 17px;
+    color: gray;
+    margin-top: 1px;
+}
+.about{
+    margin-bottom: 10px;
+}
+.skills{
+    margin-top: 30px;
+}
+.skills h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.bars{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px 10px;
+    padding: 0 30px;
+}
+.bars .bar p{
+   font-size: 15px;
+   font-weight: bold;
+}
+.bar span{
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(192,191,191);
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.bar span::before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+.cpp span::before{
+   width: 90%;
+   background-color: black;
+}
+.html span::before{
+   width: 100%;
+}
+.css span::before{
+   width: 80%;
+}
+.javascript span::before{
+   width: 90%;
+}
+.reactjs span::before{
+   width: 87%;
+}
+.nodejs span::before{
+   width: 85%;
+}
+.sql span::before{
+   width: 80%;
+}
+.dbms span::before{
+   width: 90%;
+}
+.networking span::before{
+   width: 95%;
+}
+.os span::before{
+   width: 80%;
+}
+.dsa span::before{
+   width: 85%;
+}
+.python span::before{
+   width: 75%;
+}
+.ml span::before{
+   width: 60%;
+}
+.ethical span::before{
+   width: 50%;
+} 
+.linux span::before{
+   width: 78%;
+}
+.docker span::before{
+   width: 70%;
+}
+.github span::before{
+   width: 80%;
+}
+.figma span::before{
+   width: 95%;
+}
+.photoshop span::before{
+   width: 90%;
+}
+.premier span::before{
+   width: 90%;
+}
+.fa-brands{
+    margin-right: 5px;
+    position: relative;
+    right: 15px;
+}
+.fa-github{
+    position: relative;
+    right: 22px;
+}
+.fa-twitter{
+    position: relative;
+    right: 20px;
+}
+.fa-youtube{
+    position: relative;
+    right: 14.5px;
+}
+.follow h1{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.follow h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.education p{
+    position: relative;
+    top: 5px;
+    left: -60px;
+    margin-bottom: 30px;
+}
+.education{
+    margin-top: 30px;
+}
+.edu-group{
+    margin-top: 15px;
+    padding-left: 74.3px;
+}
+.edu-group h4{
+    font-size: 20px;
+}
+.marks{
+    font-weight: 450;
+}
+.languages{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 88px;
+    position: relative;
+    left: 15px;
+}
+.languages li{
+    color: gray;
+}
+.project-group h4{
+    font-size: 22px;
+}
+.project-group{
+    position: relative;
+    left: 78px;
+    top: 15px;
+    margin-bottom: 12px;
+}
+.project-group .dict-li{
+    position: relative;
+    left: 120px;
+    top: 10px;
+    color: rgb(104, 104, 104);
+}
+.language{
+    position: relative;
+    top: 16px;
+}
+.hobbies{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 102px;
+    margin-right: 65.4px;
+    
+}
+.hobbies li{
+    color: gray;
+   
+}
+.personal-bar{
+    font-size: 18px;
+    font-weight: 500;
+}
+.per-skills h1{
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+.per-skills{
+    margin-top: 44px;
+}
+.personal-bar{
+    margin-top: 10px;
+}
+.follow img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 13px;
+    top: 3px;
+}
+.personal-bar li{
+    font-size: 17px;
+}
+.personal-bar{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    list-style: none;
+
+}
+.per-skills h1{
+    font-weight: 500;
+}
+.first-li{
+    position: relative;
+    right: 30px;
+}
+.second-li{
+    position: relative;
+    left: 14px;
+}
+.third-li{
+    position: relative;
+    right: 49.5px;
+}
+.fourth-li{
+    position: relative;
+    right: 39px;
+}
+.fifth-li{
+    position: relative;
+    right: 18.5px;
+}
+.achievements-li{
+    position: relative;
+    left: 120px;
+    color: gray;
+    top: 8px;
+}
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 135px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: black;
+    border: 2px solid black;
+    outline: none;
+}
+button:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+.follow h4 a{
+    text-decoration: none;
+}
+@media print{
+    body *{
+        visibility: hidden;
+    }
+    .print-area *{
+        visibility: visible;
+    }
+}
